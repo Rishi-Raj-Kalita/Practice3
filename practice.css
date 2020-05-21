@@ -1,0 +1,101 @@
+/*########################defaults#############################*/
+body{
+    line-height: 1;
+    margin: 0;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after
+{
+    display:table;
+    content: "";
+    clear: both;
+}
+.col-1{width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 33.33%;}
+.col-4{width: 40%;}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%;}
+.col-8{width: 80%;}
+.col-9{width: 90%;}
+.col-10{width: 100%;}
+/*#####################################  NAvbar      ##############################*/
+.TopNav
+{
+    margin: 0;
+    padding: 0;
+    background-color: #d1d1e0;
+    height: 30px;
+}
+.TopNav ul a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.TopNav ul{
+    padding: 0;
+    margin: 0;
+}
+ul a.NavRight
+{
+    float:right;
+    padding-top: 0;
+}
+/*################################ StateChange #############################*/
+.col-5 h1{
+        display:block;
+        margin: auto;
+        text-align: center;
+}
+.col-5
+{
+    background: linear-gradient(#ffccff,#ffffff);
+}
+.col-5 button
+{
+    margin: auto;
+    display: block;
+    padding:5px;
+    font-weight: 800;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+/*############################### Header for TODO         ######################################*/
+.Header h1
+{
+    text-align: center;
+    background: #d1d1e0;
+    color: black;
+    font-weight: bold;
+}
+.Header
+{
+    width: 100%;
+}
+/*###################################     updatedarray ############################*/
+.UpdatedArray
+{
+    display: block;
+    margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

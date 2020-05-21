@@ -1,0 +1,33 @@
+.Nav h1
+{
+    background-color: #00ffff;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    margin: 0;
+    padding: 2px;
+}
+input[type="checkbox"]
+{
+    padding:3px;
+    display: block;
+    color: #ff4d4d;
+}
+body
+{
+    margin:0;
+    padding: 0;
+}
+.Main h2
+{
+    margin: 2.5px;
+    padding: 3px;
+    color: #e6e600;
+}
+.box
+{
+    box-sizing: border-box;
+    box-shadow: yellowgreen;
+    margin-left: 40%;
+    margin-top: 60px;
+}
